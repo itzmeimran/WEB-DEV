@@ -1,0 +1,23 @@
+.wrapper{
+    padding: 3rem 17rem;
+    text-align: center;
+    font-family: Poppins;
+    
+}
+.imgs{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+img{
+    margin: 0.8rem 0;
+    height:300px;
+    width:300px;
+    object-fit: cover;
+    border-radius: 12px;
+    filter: grayscale(100%);
+    transition: all 0.5s ease;
+}
+
+img:hover{
+    filter: grayscale(0%);
+}
