@@ -14,8 +14,8 @@ generate.addEventListener("click", function(){
       password += characters.charAt(Math.floor(Math.random() * characters.length));
     }
   
-    // return the password
-    // return console.log(password);
+    // return the password in the html page 
+    
     for (let i=0;i<=password.length;i++) {
         digit[i].innerHTML = password[i];
     };
@@ -23,8 +23,3 @@ generate.addEventListener("click", function(){
     
 });
 
-
-// function generatePassword() {
-
-  
-// console.log()
